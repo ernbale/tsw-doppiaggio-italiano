@@ -6,6 +6,8 @@ e gli **annunci a bordo e in stazione**, compresi i nomi delle stazioni.
 Il gioco ha già i sottotitoli e i menù in italiano, ma il parlato è solo in inglese, tedesco o francese.
 Questa mod aggiunge le voci italiane usando i testi italiani ufficiali del gioco.
 
+**Gratuita: vietata la vendita.** Licenza [CC BY-NC-SA 4.0](#licenza).
+
 ## Scarica
 
 I file stanno nella pagina delle **[versioni (Releases)](https://github.com/ernbale/tsw-doppiaggio-italiano/releases/latest)**.
@@ -154,6 +156,21 @@ Get-FileHash .\!TSW7_Italiano.pak -Algorithm SHA256
 - **Handle** di Sysinternals per verificare che il gioco carichi davvero il pacchetto.
 
 Le scelte di voci, accenti e pronunce e il collaudo nel gioco li ho fatti io.
+
+## Licenza
+
+**Mod gratuita: è vietata la vendita e qualsiasi ridistribuzione a pagamento.**
+
+Le parti di questo lavoro che sono mie (le voci generate, le traduzioni, il montaggio degli annunci, questa pagina)
+sono rilasciate con licenza **[Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it)**
+(testo completo nel file [LICENSE](LICENSE)). In parole semplici:
+
+- **puoi** usarla, condividerla e modificarla;
+- **devi** citare l'autore e il link a questa pagina;
+- **non puoi** venderla né usarla per guadagnarci;
+- se la modifichi e la condividi, deve restare con la **stessa licenza**.
+
+I file originali del gioco contenuti nei pacchetti restano di proprietà di Dovetail Games e non sono coperti da questa licenza.
 
 ---
 
