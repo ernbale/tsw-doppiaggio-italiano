@@ -10,23 +10,24 @@ Questa mod aggiunge le voci italiane usando i testi italiani ufficiali del gioco
 
 I file stanno nella pagina delle **[versioni (Releases)](https://github.com/ernbale/tsw-doppiaggio-italiano/releases/latest)**.
 
-| File | Per quale gioco | Cosa contiene |
+| Scarica | Per quale gioco | Cosa contiene |
 |---|---|---|
-| `!TSW7_Italiano.pak` | **TSW 7 e TSW 6** | Versione **tutto italiano**: dialoghi, testi italiani mancanti e tutti gli annunci con voci italiane naturali (307 MB) |
-| `!TSW7_Italiano_Accenti.pak` | TSW 7 | Stesso doppiaggio, ma gli annunci sono detti in italiano con l'accento del paese (tedesco, inglese, giapponese, americano); i nomi delle stazioni restano con la voce originale (199 MB) |
-| `!TSW6_Italiano.pak` | TSW 6 | Vecchio file solo per TSW 6, senza gli annunci composti (92 MB). Serve solo se l'altro dà problemi |
+| `TSW7_Italiano.zip` | **TSW 7 e TSW 6** | Versione **tutto italiano**: dialoghi, testi italiani mancanti e tutti gli annunci con voci italiane naturali (260 MB) |
+| `TSW7_Italiano_Accenti.zip` | TSW 7 | Stesso doppiaggio, ma gli annunci sono detti in italiano con l'accento del paese (tedesco, inglese, giapponese, americano); i nomi delle stazioni restano con la voce originale (193 MB) |
+| `TSW6_Italiano.zip` | TSW 6 | Vecchio file solo per TSW 6, senza gli annunci composti (90 MB). Serve solo se l'altro dà problemi |
+
+Ogni zip contiene un solo file, per esempio `!TSW7_Italiano.pak`: è quello da mettere nel gioco.
+Il nome comincia con un punto esclamativo, che serve a farlo caricare prima degli altri pacchetti,
+quindi **non rinominarlo** (per questo il file è dentro uno zip: GitHub toglierebbe il punto esclamativo).
 
 Metti nel gioco **un solo file**. Se cambi versione, cancella prima l'altro.
-
-Il nome comincia con un punto esclamativo (`!TSW7_Italiano.pak`): serve a farlo caricare prima degli altri pacchetti,
-quindi **non rinominarlo**.
 
 ## Come si installa
 
 1. **Chiudi il gioco.** I pacchetti vengono letti solo all'avvio, e a gioco aperto il file risulta occupato.
 2. Apri la cartella del gioco. Da Steam: tasto destro sul gioco → *Gestisci* → *Sfoglia file locali*.
 3. Entra nelle sottocartelle `WindowsNoEditor` → `TS2Prototype` → `Content` → `DLC`.
-4. Copia lì dentro il file scaricato.
+4. Estrai lo zip scaricato (tasto destro → *Estrai tutto*) e copia lì dentro il file `.pak` che contiene.
 5. Avvia il gioco e imposta la lingua italiana nelle opzioni.
 
 Percorso tipico con Steam:
@@ -109,7 +110,7 @@ Per gli altri DLC di TSW 6 dovrebbe valere lo stesso, ma non l'ho potuto verific
 
 ## Verifica dei file
 
-Per controllare che il file scaricato sia integro, in PowerShell:
+Per controllare che il file estratto dallo zip sia integro, in PowerShell:
 
 ```
 Get-FileHash .\!TSW7_Italiano.pak -Algorithm SHA256
