@@ -120,9 +120,9 @@ Get-FileHash .\!TSW7_Italiano.pak -Algorithm SHA256
 
 | File | SHA-256 |
 |---|---|
-| `!TSW7_Italiano.pak` | `52a173423e0ee617c292e5bf092c5db9a9644a3fde8ecf38a621ba4fe50d451d` |
-| `!TSW7_Italiano_Accenti.pak` | `df30046e9cb5398581bc9aae7a07dc164d8c1a0db8de7822851f5a045cccf4fd` |
-| `!TSW6_Italiano.pak` | `eb9a42f6555570061abd328864fa42e59a58f844394e690831c505881be12445` |
+| `!TSW7_Italiano.pak` | `dd4cbfafc3bc67eb5f48f59b98214c7bde811818fa8f090ee70e951f8408894f` |
+| `!TSW7_Italiano_Accenti.pak` | `243b634247d79e08ba2adbbe4340ed89c05b111a4f6495d961f409e8342f68a0` |
+| `!TSW6_Italiano.pak` | `5d28e95ab635be6cabee6782b7a187d0e3d36c8d049eec48c38ad3ee8c08a886` |
 
 ## Domande veloci
 
@@ -171,6 +171,8 @@ sono rilasciate con licenza **[Creative Commons BY-NC-SA 4.0](https://creativeco
 - se la modifichi e la condividi, deve restare con la **stessa licenza**.
 
 I file originali del gioco contenuti nei pacchetti restano di proprietà di Dovetail Games e non sono coperti da questa licenza.
+
+Ogni file audio della mod porta al suo interno una firma (autore, licenza e link a questa pagina) nelle etichette del formato Ogg Vorbis: non si sente nel gioco, ma permette di riconoscere l'origine dei file.
 
 ---
 
