@@ -142,9 +142,16 @@ Get-FileHash .\!TSW7_Italiano.pak -Algorithm SHA256
   - *Text to Speech* `eleven_multilingual_v2` per i dialoghi e gli annunci in italiano (anche quelli con accento giapponese);
   - *Text to Speech* `eleven_turbo_v2_5` per gli annunci con accento inglese;
   - *Speech to Speech* `eleven_multilingual_sts_v2` per gli annunci con accento tedesco;
-  - *Speech to Text* `scribe_v1` per trascrivere gli annunci originali che non hanno sottotitoli e per ricontrollare le voci generate.
+  - *Speech to Text* `scribe_v1` per trascrivere gli annunci originali che non hanno sottotitoli e per ricontrollare le voci generate;
+  - voci della libreria ElevenLabs: **George** (dialoghi e tutorial), **GianP** e **Tiziana** (annunci della versione tutto italiano),
+    **Hans**, **Alice**, **Konoha**, **Daniel**, **Brian** e **Jessica** (annunci con accento tedesco, inglese, giapponese e americano).
+- **Sintesi vocale di macOS** (voce tedesca *Anna*) come base per gli annunci con accento tedesco, poi trasformata con *Speech to Speech*.
 - **[repak](https://github.com/trumank/repak)** per creare i pacchetti `.pak`.
-- **FFmpeg** per l'effetto altoparlante degli annunci e **oggenc** (Ogg Vorbis) per la codifica dell'audio.
+- **Python** (con NumPy) per gli strumenti scritti apposta: lettura dei pacchetti del gioco, ricostruzione dei file audio di Unreal Engine,
+  ritaglio dei pezzi degli annunci, controlli automatici.
+- **FFmpeg** per l'effetto altoparlante degli annunci e per ripulire l'audio, **afconvert** di macOS per le conversioni,
+  **oggenc** e **oggdec** (Ogg Vorbis) per la codifica dell'audio.
+- **Handle** di Sysinternals per verificare che il gioco carichi davvero il pacchetto.
 
 Le scelte di voci, accenti e pronunce e il collaudo nel gioco li ho fatti io.
 
