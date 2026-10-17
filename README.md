@@ -133,6 +133,21 @@ Get-FileHash .\!TSW7_Italiano.pak -Algorithm SHA256
 **Ho sentito un nome pronunciato male o una frase sbagliata.** Apri una segnalazione nella scheda
 [Issues](https://github.com/ernbale/tsw-doppiaggio-italiano/issues): scrivi la rotta, il treno e cosa hai sentito.
 
+## Come è fatta
+
+- **[Claude Code](https://claude.com/claude-code)** di Anthropic, con i modelli **Claude Opus 5.5**, **Claude Opus 5** e **Claude Fable 5.1**
+  (settembre–ottobre 2026). Ha esplorato i file del gioco, trovato tutte le frasi parlate e i testi, scritto gli strumenti
+  per smontare e ricostruire i file audio di Unreal Engine e i pacchetti `.pak`, e controllato il risultato.
+- **[ElevenLabs](https://elevenlabs.io)** per le voci:
+  - *Text to Speech* `eleven_multilingual_v2` per i dialoghi e gli annunci in italiano (anche quelli con accento giapponese);
+  - *Text to Speech* `eleven_turbo_v2_5` per gli annunci con accento inglese;
+  - *Speech to Speech* `eleven_multilingual_sts_v2` per gli annunci con accento tedesco;
+  - *Speech to Text* `scribe_v1` per trascrivere gli annunci originali che non hanno sottotitoli e per ricontrollare le voci generate.
+- **[repak](https://github.com/trumank/repak)** per creare i pacchetti `.pak`.
+- **FFmpeg** per l'effetto altoparlante degli annunci e **oggenc** (Ogg Vorbis) per la codifica dell'audio.
+
+Le scelte di voci, accenti e pronunce e il collaudo nel gioco li ho fatti io.
+
 ---
 
 Mod amatoriale non ufficiale, senza alcun legame con Dovetail Games. Richiede il gioco originale.
