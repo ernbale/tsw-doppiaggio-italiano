@@ -11,6 +11,7 @@ Questa mod aggiunge le voci italiane usando i testi italiani ufficiali del gioco
 ## Scarica
 
 I file stanno nella pagina delle **[versioni (Releases)](https://github.com/ernbale/tsw-doppiaggio-italiano/releases/latest)**.
+La mod è anche su **[Train Sim Community](https://www.trainsimcommunity.com/mods/c3-train-sim-world/c20-sounds/i8478-doppiaggio-italiano-italian-voice-over-tsw-6-tsw-7)**, con gli stessi due file per TSW 7 (`TSW7_Italiano.zip` e `TSW7_Italiano_Accenti.zip`).
 
 | Scarica | Per quale gioco | Cosa contiene |
 |---|---|---|
